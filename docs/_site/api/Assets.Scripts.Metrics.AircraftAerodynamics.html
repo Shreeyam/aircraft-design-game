@@ -1,0 +1,857 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AircraftAerodynamics
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AircraftAerodynamics
+   ">
+    <meta name="generator" content="docfx 2.23.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics">
+  
+  
+  <h1 id="Assets_Scripts_Metrics_AircraftAerodynamics" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics" class="text-break">Class AircraftAerodynamics
+  </h1>
+  <div class="markdown level0 summary"><p>Class that contains static extension methods that evaluate the aerodynamic performance of type Aircraft</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AircraftAerodynamics</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Metrics.html">Assets.Scripts.Metrics</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Assets_Scripts_Metrics_AircraftAerodynamics_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AircraftAerodynamics</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_AerodynamicCentre_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.AerodynamicCentre*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_AerodynamicCentre_Assets_Scripts_Geometry_MirroredLiftDevice_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.AerodynamicCentre(Assets.Scripts.Geometry.MirroredLiftDevice)">AerodynamicCentre(MirroredLiftDevice)</h4>
+  <div class="markdown level1 summary"><p>Returns X position of the aerodynamic centre of a MirroredLiftDevice type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AerodynamicCentre(this MirroredLiftDevice ld)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.MirroredLiftDevice.html">MirroredLiftDevice</a></td>
+        <td><span class="parametername">ld</span></td>
+        <td><p>MirroredLiftDevice to evaluate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Decimetres</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_AerodynamicCentre_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.AerodynamicCentre*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_AerodynamicCentre_Assets_Scripts_Geometry_VerticalStabilizer_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.AerodynamicCentre(Assets.Scripts.Geometry.VerticalStabilizer)">AerodynamicCentre(VerticalStabilizer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AerodynamicCentre(this VerticalStabilizer ld)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.VerticalStabilizer.html">VerticalStabilizer</a></td>
+        <td><span class="parametername">ld</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateC_D0_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateC_D0*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateC_D0_Assets_Scripts_Geometry_Aircraft_System_Single_System_Single_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateC_D0(Assets.Scripts.Geometry.Aircraft,System.Single,System.Single)">CalculateC_D0(Aircraft, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateC_D0(this Aircraft aircraft, float velocity, float altitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateC_L_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateC_L*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateC_L_Assets_Scripts_Geometry_Aircraft_System_Single_System_Single_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateC_L(Assets.Scripts.Geometry.Aircraft,System.Single,System.Single)">CalculateC_L(Aircraft, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Calculates total C_L of the aircraft, taking into account flaps, wings, and horizontal stabilizers</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateC_L(this Aircraft aircraft, float alpha = 0F, float flaps = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td><p>Aircraft type to evaluate</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td><p>Aircraft pitch in degrees</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">flaps</span></td>
+        <td><p>Flap extension in the interval [0, 1] to indicate 0-100% flap extension</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateLandingGroundRoll_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateLandingGroundRoll*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateLandingGroundRoll_Assets_Scripts_Geometry_Aircraft_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateLandingGroundRoll(Assets.Scripts.Geometry.Aircraft)">CalculateLandingGroundRoll(Aircraft)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateLandingGroundRoll(this Aircraft aircraft)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateMaxSpeed_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateMaxSpeed*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateMaxSpeed_Assets_Scripts_Geometry_Aircraft_System_Single_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateMaxSpeed(Assets.Scripts.Geometry.Aircraft,System.Single)">CalculateMaxSpeed(Aircraft, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateMaxSpeed(this Aircraft aircraft, float altitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateMeanAerodynamicChord_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateMeanAerodynamicChord*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateMeanAerodynamicChord_Assets_Scripts_Geometry_MirroredLiftDevice_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateMeanAerodynamicChord(Assets.Scripts.Geometry.MirroredLiftDevice)">CalculateMeanAerodynamicChord(MirroredLiftDevice)</h4>
+  <div class="markdown level1 summary"><p>Returns the mean aerodynamic chord of a MirroredLiftDevice type</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateMeanAerodynamicChord(this MirroredLiftDevice ld)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.MirroredLiftDevice.html">MirroredLiftDevice</a></td>
+        <td><span class="parametername">ld</span></td>
+        <td><p>MirroredLiftDevice type to evaluate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Metres</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateRange_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateRange*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateRange_Assets_Scripts_Geometry_Aircraft_System_Single_System_Single_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateRange(Assets.Scripts.Geometry.Aircraft,System.Single,System.Single)">CalculateRange(Aircraft, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateRange(this Aircraft aircraft, float velocity, float altitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateRe_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateRe*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateRe_System_Single_System_Single_Assets_Scripts_Geometry_MirroredLiftDevice_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateRe(System.Single,System.Single,Assets.Scripts.Geometry.MirroredLiftDevice)">CalculateRe(Single, Single, MirroredLiftDevice)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateRe(float velocity, float altitude, MirroredLiftDevice ld)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.MirroredLiftDevice.html">MirroredLiftDevice</a></td>
+        <td><span class="parametername">ld</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateStallSpeed_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateStallSpeed*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateStallSpeed_Assets_Scripts_Geometry_Aircraft_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateStallSpeed(Assets.Scripts.Geometry.Aircraft)">CalculateStallSpeed(Aircraft)</h4>
+  <div class="markdown level1 summary"><p>Returns EAS Stall Speed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateStallSpeed(this Aircraft aircraft)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td><p>Aircraft type to calculate stall speed for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateStaticMargin_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateStaticMargin*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateStaticMargin_Assets_Scripts_Geometry_Aircraft_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateStaticMargin(Assets.Scripts.Geometry.Aircraft)">CalculateStaticMargin(Aircraft)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateStaticMargin(this Aircraft aircraft)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateTakeoffGroundRoll_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateTakeoffGroundRoll*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_CalculateTakeoffGroundRoll_Assets_Scripts_Geometry_Aircraft_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.CalculateTakeoffGroundRoll(Assets.Scripts.Geometry.Aircraft)">CalculateTakeoffGroundRoll(Aircraft)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float CalculateTakeoffGroundRoll(this Aircraft aircraft)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_EvaluateFAR25_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.EvaluateFAR25*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_EvaluateFAR25_Assets_Scripts_Geometry_Aircraft_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.EvaluateFAR25(Assets.Scripts.Geometry.Aircraft)">EvaluateFAR25(Aircraft)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FAR25 EvaluateFAR25(this Aircraft aircraft)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FAR25</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_EvaluateStability_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.EvaluateStability*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_EvaluateStability_Assets_Scripts_Geometry_Aircraft_System_Single_System_Single_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.EvaluateStability(Assets.Scripts.Geometry.Aircraft,System.Single,System.Single)">EvaluateStability(Aircraft, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float EvaluateStability(this Aircraft aircraft, float velocity, float altitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Assets_Scripts_Metrics_AircraftAerodynamics_EvaluateTrimmability_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.EvaluateTrimmability*"></a>
+  <h4 id="Assets_Scripts_Metrics_AircraftAerodynamics_EvaluateTrimmability_Assets_Scripts_Geometry_Aircraft_System_Single_System_Single_" data-uid="Assets.Scripts.Metrics.AircraftAerodynamics.EvaluateTrimmability(Assets.Scripts.Geometry.Aircraft,System.Single,System.Single)">EvaluateTrimmability(Aircraft, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Trimmability EvaluateTrimmability(this Aircraft aircraft, float velocity, float altitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Assets.Scripts.Geometry.Aircraft.html">Aircraft</a></td>
+        <td><span class="parametername">aircraft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">altitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Trimmability</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
